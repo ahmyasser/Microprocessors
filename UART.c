@@ -10,10 +10,23 @@ void uart_msg(char *p);   			//String transmission
 void newLine();
 
 void main(void){
-	char x;
-	uart_init();
-	x = uart_rx();
-	uart_tx(x);
+	
+	bit test = 0;  // for now it's zero, but later on it will be from an input pin
+	
+	while(1){
+			
+			if(!test){
+			
+				// CODE FOR TRAINING 
+			}
+			
+			if(test){
+			
+				// CODE FOR TESTING
+			}
+		
+		
+	}
 }
 
 void uart_init(){
